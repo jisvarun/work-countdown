@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Work Countdown",
+  "version": "1.0",
+  "description": "A feature-rich countdown timer that replaces your New Tab page with dynamic colors and focus motivation.",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
