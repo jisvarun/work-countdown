@@ -7,7 +7,7 @@ const quotes = [
   "\"Eliminate distractions and conquer your goals.\""
 ];
 
-// DOM Elements
+// DOM  Elements
 const setupView = document.getElementById('setupView');
 const countdownView = document.getElementById('countdownView');
 const startBtn = document.getElementById('startBtn');
