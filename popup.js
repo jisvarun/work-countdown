@@ -212,7 +212,7 @@ function resetToSetup() {
 resetBtn.addEventListener('click', resetToSetup);
 
 pauseBtn.addEventListener('click', () => {
-  chrome.storage.local.get(['targetTimestamp', 'totalDuration', 'isPaused'], (data) => {
+  chrome.storage.local.get(['targetTimestamp', 'totalDuration', 'isPaused', 'pausedRemaining'], (data) => {
     if (!data.isPaused) {
       // Pause timer
       if (timerInterval) clearInterval(timerInterval);
